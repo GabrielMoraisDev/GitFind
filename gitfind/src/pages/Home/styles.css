@@ -1,0 +1,114 @@
+.conteudo{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background{
+    height: 85vh;
+    position: absolute;
+    left: 0;
+    margin-top: 40px;
+}
+.info{
+    width: 60%;
+    margin-right: 90px;
+    margin-top: 40px;
+    color: #ffffff;
+}
+input{
+    border: 1px solid #999999;
+    border-radius: 50px;
+    min-width: 250px;
+    width: 80%;
+    margin-right: 12px;
+    background: transparent;
+    font-size: 18px;
+    padding: 13px 30px;
+    color: white;
+}
+
+button{
+    border: 1px solid #999999;
+    border-radius: 22px;
+    margin-right: 12px;                       
+    background: #2D333B;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.perfil{
+    display: flex; 
+    margin: 40px 0;
+}
+
+.profile{
+    width: 120px;
+    height: 120px;
+    border-radius: 300px;
+    border: 2px solid #cfcfcf;
+    margin-right: 20px;
+}
+
+.perfil h3{
+    color: #cfcfcf;
+    font-size: 24px;
+    margin-top: 22px;
+}
+
+.perfil span{
+    display: block;
+    color: #999999;
+    font-size: 16px;    
+    margin: 0;
+}
+
+.perfil p{
+    color: #999999;
+    font-size: 12px;    
+    margin: 15px 0 0 0;
+}
+
+.scroll-content{
+    height: 55vh;
+    overflow-y: scroll;
+    padding-right: 10px;
+}
+.toSearch{
+    margin-top: 50px;
+}
+.flex{
+    display: flex;
+}
+.adjust-static{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.adjust-absolute{
+    position: absolute;
+    top: 110px;
+    right: 150px;
+}
+
+.bio{
+    width: 270px;
+}
+
+.icon-search{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    margin-bottom: -1px;
+}
+
+.btn{
+    background-color: #2D333B;
+    transition: 0.1s all ease-in-out;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #4e5966;
+    transition: 0.1s all ease-in-out;
+}

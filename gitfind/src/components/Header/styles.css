@@ -1,0 +1,21 @@
+header{
+    width: 100%;
+    height: 52px;
+    background-color: #2D333B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 24px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.icon{
+    margin-left: 6px;
+    margin-bottom: -2px;
+    width: 22px;
+    height: 22px;
+}

@@ -1,0 +1,20 @@
+.item-list{
+    margin: 24px 0;
+}
+
+.item-list strong{
+  color: #539BF5;
+  font-size: 24px;
+  margin: 24px 0;
+}
+.item-list p{
+    color: #999999;
+    font-size: 24px;
+    margin: 24px 0;
+}
+.repositorio{
+    font-size: 32px;
+    color: #fff;
+    margin: 12px 0;
+    text-align: center;
+}
