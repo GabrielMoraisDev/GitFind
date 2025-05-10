@@ -12,31 +12,49 @@
     margin-top: 40px;
 }
 .info{
-    width: 60%;
+    width: 70vw;
     margin-right: 90px;
     margin-top: 40px;
     color: #ffffff;
 }
+
+.repositorio-find{
+    color: #e7e7e7;
+    font-size: 32px;
+}
+
+.repositorio{
+    color: #6d6d6d;
+}
+
+.all-center{
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    place-items: center;
+    text-align: center;
+}
+
 input{
-    border: 1px solid #999999;
+    border: none;
     border-radius: 50px;
+    background: #12161b;
     min-width: 250px;
-    width: 80%;
+    width: 25vw;
     margin-right: 12px;
-    background: transparent;
     font-size: 18px;
-    padding: 13px 30px;
+    padding: 13px 20px;
     color: white;
 }
 
 button{
-    border: 1px solid #999999;
     border-radius: 22px;
+    border: none;
     margin-right: 12px;                       
     background: #2D333B;
     color: #fff;
     font-size: 18px;
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 .perfil{
@@ -73,23 +91,25 @@ button{
 
 .scroll-content{
     height: 55vh;
-    overflow-y: scroll;
+    overflow-y: auto;
     padding-right: 10px;
 }
+
 .toSearch{
     margin-top: 50px;
 }
+
 .flex{
     display: flex;
 }
+
+.flex-desktop{
+    display: flex;
+}
+
 .adjust-static{
     margin-top: 30px;
     margin-left: 20px;
-}
-.adjust-absolute{
-    position: absolute;
-    top: 110px;
-    right: 150px;
 }
 
 .bio{
@@ -105,10 +125,91 @@ button{
 
 .btn{
     background-color: #2D333B;
-    transition: 0.1s all ease-in-out;
+    transition: 0.3s all ease-in-out;
     cursor: pointer;
 }
 .btn:hover{
     background-color: #4e5966;
-    transition: 0.1s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+
+.container-stats{
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 1600px) {
+    .info{
+        width: 90%;
+        margin: auto;
+        color: #ffffff;
+    }
+
+    .container-stats{
+        display: grid;
+        grid-column: 1;
+        gap: 10px;
+    }
+
+    .scroll-content{
+        height: 100%;
+        overflow-y: auto;
+        padding-right: 10px;
+    }
+
+    .flex-desktop{
+        display: inline;
+    }
+
+    .background{
+        display: none;
+    }
+
+    .perfil{
+        display: inline; 
+        margin: 0px 0;
+    }
+    .profile{
+        width: 120px;
+        height: 120px;
+        border-radius: 300px;
+        border: 2px solid #cfcfcf;
+        margin: auto;
+    }
+    .bio{
+        margin: auto;
+        text-align: center;
+        width: auto;
+        background-color: rgb(63, 63, 63);
+        padding: 10px 0px;
+    }
+    .repositorio-find{
+        color: #e7e7e7;
+        font-size: 32px;
+        margin-top: 20px;
+    }
+    input{
+        border: none;
+        border-radius: 50px;
+        background: #12161b;
+        min-width: 250px;
+        width: 50%;
+        margin: 10px 0px;
+        font-size: 18px;
+        padding: 13px 20px;
+        color: white;
+    }
+    
+    button{
+        border-radius: 22px;
+        border: none;
+        width: 50%;
+        margin: 0px;
+        margin-bottom: 10px;
+        background: #2D333B;
+        color: #fff;
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    
 }
